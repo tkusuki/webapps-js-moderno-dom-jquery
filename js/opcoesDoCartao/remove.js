@@ -8,7 +8,7 @@
 		
 		const cartao = cartoes[i]
 		
-		// Adiciona evento de click no elemento
+		// Adiciona evento de click no elemento para remover cartão
 		cartao.addEventListener("click", function(event) {
 			const isRemoveButton = event.target.classList.contains("opcoesDoCartao-remove")
 			if(isRemoveButton) {
@@ -16,7 +16,5 @@
 			}
 		})
 	}
-	
-	// Adiciona evento de click no button para remover o cartao
 
 })()
