@@ -22,4 +22,6 @@
 
 	})
 
+	btn.classList.remove("no-js")
+
 })()
