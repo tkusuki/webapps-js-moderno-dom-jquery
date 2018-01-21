@@ -23,18 +23,6 @@
 	z-index: 2;
 }
 
-/*.cartao .opcoesDoCartao-opcao {
-	opacity: 0;
-	transition: opacity .2s ease;
-}
-
-.cartao:focus .opcoesDoCartao-opcao,
-.cartao--focado .opcoesDoCartao-opcao{
-	opacity: 1;
-}
-*/
-
-
 .cartao-conteudo {
 	white-space: pre-line;
 	max-height: 400px;
