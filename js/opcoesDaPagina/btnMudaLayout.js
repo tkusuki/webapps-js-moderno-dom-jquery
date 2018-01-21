@@ -5,7 +5,6 @@
 	const btn = document.querySelector("#btnMudaLayout")
 	const mural = document.querySelector(".mural")
 
-	console.log(mural.classList)
 	// Adiciona evento de click no botão #btnMudaLayout
 	btn.addEventListener("click", function(){
 
