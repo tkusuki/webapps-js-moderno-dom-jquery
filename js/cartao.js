@@ -9,12 +9,9 @@
 		const cartao = cartoes[i]
 		
 		// Adiciona evento de click no elemento para remover cartão
-		cartao.addEventListener("mouseover", function() {
-
-				cartao.classList.add("cartao--focado")
-
-				
-			}
+		cartao.addEventListener("focusin", function(event) {
+			console.log(event.target)
+			cartao.classList.add("cartao--focado")
 		})
 	}
 
